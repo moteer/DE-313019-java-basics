@@ -1,4 +1,4 @@
-package de.brightslearning.java.basics.controlflow;
+package exercise_2;
 
 /**
  * Write a program, which outputs all numbers from 1 to 100 with the following rule:
