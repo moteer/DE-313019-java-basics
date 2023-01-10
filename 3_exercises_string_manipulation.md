@@ -2,7 +2,6 @@
 
 * **Important: Do the validation one after the other (no nesting).**
 
-* The length of the input string must be greater than 5.
 * The length of the input string must be between 4-8 characters.
 * Input string must start with 2 numeric characters. Hint: Use Character.isDigit()
 * String must contain "chen", such as "München".
