@@ -93,7 +93,6 @@ public class Datatypes {
         Datatypes datatypes = new Datatypes();
 
         Integer i1 = datatypes.myMethod(Integer.MAX_VALUE);
-
     }
 
 
