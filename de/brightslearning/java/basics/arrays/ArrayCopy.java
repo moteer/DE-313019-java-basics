@@ -35,22 +35,26 @@ public class ArrayCopy {
         }
 
         System.out.println("Josefine Case");
-        copyOverride(strings);
+        copyWhichDoesNotWork(strings);
 
         System.out.println("--> Josefine Case wieder ausserhalb der methode");
         for (String name : strings) {
             System.out.println(name);
         }
 
+
+
     }
 
-    private static void copyOverride(String[] strings) {
+    private static void copyWhichDoesNotWork(String[] strings) {
         String[] tmp = new String[strings.length];
         for (int i=0; i<strings.length; i++) {
             tmp[i] = strings[i];
         }
         tmp[0] = "new Student";
-        strings = tmp;
+        strings = tmp;          // tmp wird hier strings zugewiesen. In dem Kontext der Methode copyWhichDoesNotWork
+                                // ist strings eine neue Variable und die Zuweisung hat keinen Einfluss auf das
+                                // strings array außerhalb der Methode
         System.out.println("--> in der Methode");
         for (String name : strings) {
             System.out.println(name);
