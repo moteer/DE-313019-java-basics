@@ -2,3 +2,4 @@
    - use primitive arrays and no Collections please :)
 
 2. Create a method that allows you add a new Person to the class
+3. Create a method that allows you removes a Person from class
