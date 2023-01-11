@@ -6,6 +6,8 @@ public class ArraysAndLoops {
 
     public static void main(String[] args) {
 
+        //String [] newArray = {"Erik","Bacdasch","Marc"};
+
         String[] names = new String[13];
         names[0] = "Erik";
         names[1] = "Bacdasch";
