@@ -7,6 +7,8 @@ Ich als Java Consultant...
 - Deklariere und initialisiere Variablen x
 - Verwende IntelliJ IDEA zur Verwaltung von Java-Projekten x
 - Verwende Operatoren zum Erstellen von Anweisungen, Vergleichen und Zuweisungen x
+- 
+- kann Arrays verwenden 
 - Verwende passende Ablaufanweisungen zur Steuerung des Programmablaufs
 - Definiere Objekt-Methoden mit und ohne Parameter und Rückgabewerten
 - Verstehe und verwende mehrdimensionale Arrays von primitiven Daten sowie von Objekten
