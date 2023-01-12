@@ -6,6 +6,7 @@
 4. (Bonus) Create another method, that creates random studies buddie groups. It should take in a parameter which defines the group size.
 
 
+
 5. We want to check an array of chars if it contains a "good" / strong password. Good passwords shall meet the following requirements:
    * at least 8 characters
    * at least two letters
