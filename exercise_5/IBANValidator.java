@@ -1,4 +1,4 @@
-package de.brightslearning.java.basics;
+package exercise_5;
 
 /**
  * Validate a given String if it represents a German IBAN. Following criteria have to fulfilled:
