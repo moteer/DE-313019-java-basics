@@ -30,7 +30,18 @@ public class Strings {
 
         System.out.println("a".compareToIgnoreCase("B"));
 
+        System.out.println("#######################################");
+        System.out.println("     Hello das ist mein String mit vielen Leerzeichen      "
+                .replaceAll(" ", ""));
+
+        System.out.println("AB".concat("CD"));
+
+        myString += " here is more";
+        String concat = myString.concat(" here is more");
+
         System.out.println(myString.replaceAll("some", "My"));
+
+
 
         System.out.println("     Hello das ist mein String mit vielen Leerzeichen      ".trim());
         System.out.println("Hello das ist mein String mit keine Leerzeichen".indent(10));
