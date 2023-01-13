@@ -15,10 +15,10 @@ Ich als Java Consultant...
     - Verwende passende Ablaufanweisungen zur Steuerung des Programmablaufs (control flow statements) (Switch, if then else, elseif, break, continue) x
     - Strings Validierung und Manipulation von Strings x 
 
-    - Definiere Objekt-Methoden mit und ohne Parameter und Rückgabewerten
+    - Definiere Objekt-Methoden mit und ohne Parameter und Rückgabewerten x
     - Modelliere Zusammenhänge und Interaktionen im Code durch Klassen und Objekte und verstehe die Prinzipien:
-        - Encapsulation
-        - Inheritance
+        - Encapsulation - beschreiben, implementieren x
+        - Inheritance / Vererbung - beschreiben, darstellen im Diagram, implementieren mit extends x
         - Abstraction
         - Polymorphism
 
