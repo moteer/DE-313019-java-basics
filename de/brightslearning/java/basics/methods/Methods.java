@@ -39,6 +39,27 @@ public class Methods {
         //static        : Instanz/Object-unabhängige Methode, Es muss kein Object instanziiert werden
     }
 
+    /**
+     * Überladen von Methoden
+     * overloading
+     */
+    public void myMethod() {
+
+    }
+    public void myMethod(Integer i) {
+
+    }
+
+    /**
+     * @return was auch immer
+     * @param alter mein Alter
+     * @param name mein Name
+     */
+    public String myMethod(Integer alter, String name) {
+        return "";
+    }
+
+
     public static void main(String[] args) {
         Methods methods = new Methods();
         myStaticMethod();
@@ -49,5 +70,30 @@ public class Methods {
 
         plus(myParams);
 
+        //overloading
+        methods.myMethod();
+        methods.myMethod(1);
+        methods.myMethod(1, "something");
+
+        //overwriting
+        methods.equals(""); // --> false
+
+
+        // Recursion
+        methods.myRecursiveMethod();
+    }
+
+    private int counter =0;
+    public void myRecursiveMethod() {
+        if (counter <=10) {
+            System.out.println(counter++);
+            myRecursiveMethod();
+        }
+    }
+
+
+    @Override
+    public boolean equals(Object obj) {
+        return false;
     }
 }
