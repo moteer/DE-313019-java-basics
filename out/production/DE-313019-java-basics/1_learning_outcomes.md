@@ -16,5 +16,10 @@ Ich als Java Consultant...
     - Strings Validierung und Manipulation von Strings x 
 
     - Definiere Objekt-Methoden mit und ohne Parameter und Rückgabewerten
+    - Modelliere Zusammenhänge und Interaktionen im Code durch Klassen und Objekte und verstehe die Prinzipien:
+        - Encapsulation
+        - Inheritance
+        - Abstraction
+        - Polymorphism
+
     - Verstehe und verwende mehrdimensionale Arrays von primitiven Daten sowie von Objekten
-    - Modelliere Zusammenhänge und Interaktionen im Code durch Klassen und Objekte
